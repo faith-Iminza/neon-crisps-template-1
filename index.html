@@ -34,7 +34,7 @@
     <div class="container-fluid bg-white position-relative">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="index.html" class="navbar-brand text-secondary">
-                <h1 class="display-4 text-uppercase"><img src="img/fulllogo.jpg"></h1>
+                <h1 class="display-4 text-uppercase"><img src="img/fulllogo.png"></h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,7 @@
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
                     <div>
                         <h6 class="text-body text-uppercase mb-1"><small>Call Anytime</small></h6>
-                        <h6 class="m-0">+254 7021 6300</h6>
+                        <h6 class="m-0">+2547 1728 1093</h6>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
     <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
         <div class="row mx-0 align-items-center">
             <div class="col-lg-6 px-md-5 text-center text-lg-left">
-                <h1 class="display-2 text-uppercase mb-3">Best Communication Agency Company.</h1>
+                <h4 class="display-2 text-uppercase mb-3">Your catalytic communication partner, Neon Crisp.</h4>
                 <p class="text-dark mb-4">We are dedicated to illuminating the world of digital communication with clarity, creativity, and innovation.Our mission is to empower businesses to connect, engage, and grow through tailored communication solutions that shine. </p>
                 <!-- <a href="" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a> -->
             </div>
@@ -86,15 +86,43 @@
             <div class="container py-5">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                        <img class="img-fluid mb-4 mb-lg-0" src="img/about.png" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h1 class="display-4 text-uppercase mb-4">Who We Are </h1>
                         <h5 class="text-uppercase text-primary mb-3">Neon Crisp is a leading communication company that specializes in delivering cutting-edge digital strategies, comprehensive marketing solutions, and top-tier content creation. </h5>
-                        <p class="mb-4">Our team of seasoned professionals brings together a wealth of experience and a passion for excellence, ensuring that every project we undertake is executed with precision and flair.</p>
-                        <a href="" class="btn btn-primary text-uppercase py-3 px-5">Read More</a>
+                        <p class="mb-4">Our team of seasoned professionals brings together a wealth of experience and a passion for excellence, ensuring that every project we undertake is executed with precision and flair.<span id="dots"></span></p>
+                        <span id="more">
+                            <h5 class="text-uppercase text-primary mb-3" id="para2">Why choose us </h5>
+                            <ul class="mb-4">
+                                <li><b>Innovative Approach:</b>We stay ahead of the curve by constantly exploring new technologies and methodologies to deliver innovative solutions.</li>
+                                <li><b>Client-Centric Focus:</b>Your success is our success. We work closely with you to understand your needs and objectives, ensuring that our services are tailored to meet your specific requirements.</li>
+                                <li><b>Proven Results:</b>Our track record speaks for itself. We have helped numerous clients achieve their communication and marketing goals, driving growth and enhancing their online presence.</li>
+                                <li><b>International Expertise:</b>Our team has extensive experience working in diverse geographies, allowing us to bring a global perspective to our strategies and solutions. We understand the nuances of different markets and cultures, enabling us to tailor our services to meet the unique needs of our international clients.</li>
+                                <li><b>Passionate Team:</b>Our team is our greatest asset. We are a group of dedicated professionals who are passionate about what we do and committed to delivering excellence in every project.</li>
+                            </ul>         
+                        </span>    
+                        <button onclick="myFunction()" id="myBtn" class="btn btn-primary text-uppercase py-3 px-5">Read More</button>
+                                 
                     </div>
                 </div>
+                <script>
+                     function myFunction() {
+                        var dots = document.getElementById("dots");
+                         var moreText = document.getElementById("more");
+                         var btnText = document.getElementById("myBtn");
+      
+                     if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                         moreText.style.display = "none";
+                     } else {
+                         dots.style.display = "none";
+                         btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                      }
+                      }
+                </script>
             </div>
         </div>
      </div>
@@ -135,7 +163,7 @@
                         <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
                         <h5 class="text-uppercase">Digital</h5>
                         <h4 class="text-uppercase mb-4"><span class="d-block text-body">Strategy</span></h4>
-                        <p class="text-secondary">: We develop customized digital strategies that align with your business goals, leveraging data-driven insights and the latest trends to drive measurable results.</p>
+                        <p class="text-secondary">We develop customized digital strategies that align with your business goals, leveraging data-driven insights and the latest trends to drive measurable results.</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +181,7 @@
                     <div class="col-lg-6 mb-2">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-40" src="img/trevor.jpeg" alt="">
                                 <div class="team-overlay">
                                     <div class="d-flex align-items-center justify-content-start">
                                         <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -163,7 +191,7 @@
                                 </div>
                             </div>
                             <div class="bg-light text-center p-4">
-                                <h4 class="text-uppercase">Trevor Maingi</h4>
+                                <h4 class="text-uppercase">Trevor</h4>
                                 <p class="m-0">CEO, Founder</p>
                             </div>
                         </div>
@@ -171,7 +199,7 @@
                    <div class="col-lg-6 mb-2">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid w-40" src="img/kartoon.png" alt="">
                             <div class="team-overlay">
                                 <div class="d-flex align-items-center justify-content-start">
                                     <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -181,7 +209,7 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h4 class="text-uppercase">Faith Afundi</h4>
+                            <h4 class="text-uppercase">Faith</h4>
                             <p class="m-0">Web Developer</p>
                         </div>
                     </div>
@@ -252,7 +280,7 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0"><img src="img/fulllogo.jpg"></h1>
+                    <h1 class="m-0"><img src="img/textonly.png"></h1>
                 </a>
                 <p>A leading communication company that specializes in delivering cutting-edge digital strategies, comprehensive marketing solutions, and top-tier content creation.</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
@@ -266,8 +294,8 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
                 <p>At Neon Crisp, we believe that effective communication is the key to unlocking potential. Let us help you navigate the digital landscape and illuminate your path to success. Connect with us today to learn more about how we can help your business shine.</p>
-                <p><i class="fa fa-map-marker-alt text-white mr-2"></i></p>
-                <p><i class="fa fa-phone-alt text-white mr-2"></i>+2547 0221 6300</p>
+                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>Westlands,Nairobi</p>
+                <p><i class="fa fa-phone-alt text-white mr-2"></i>+2547 1728 1093</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>neoncrisp@gmail.com</p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
